@@ -1,0 +1,113 @@
+[
+  {
+    "timestamp": "2026-06-03T09:00:00Z",
+    "eventName": "ConsoleLogin",
+    "userIdentity": "alex-admin",
+    "sourceIPAddress": "198.51.100.10",
+    "awsRegion": "us-east-1",
+    "eventSource": "signin.amazonaws.com",
+    "errorMessage": "Failed authentication",
+    "mfaUsed": false
+  },
+  {
+    "timestamp": "2026-06-03T09:01:00Z",
+    "eventName": "ConsoleLogin",
+    "userIdentity": "alex-admin",
+    "sourceIPAddress": "198.51.100.10",
+    "awsRegion": "us-east-1",
+    "eventSource": "signin.amazonaws.com",
+    "errorMessage": "Failed authentication",
+    "mfaUsed": false
+  },
+  {
+    "timestamp": "2026-06-03T09:02:00Z",
+    "eventName": "ConsoleLogin",
+    "userIdentity": "alex-admin",
+    "sourceIPAddress": "198.51.100.10",
+    "awsRegion": "us-east-1",
+    "eventSource": "signin.amazonaws.com",
+    "errorMessage": "Failed authentication",
+    "mfaUsed": false
+  },
+  {
+    "timestamp": "2026-06-03T09:03:00Z",
+    "eventName": "ConsoleLogin",
+    "userIdentity": "alex-admin",
+    "sourceIPAddress": "198.51.100.10",
+    "awsRegion": "us-east-1",
+    "eventSource": "signin.amazonaws.com",
+    "responseElements": "Success",
+    "mfaUsed": false
+  },
+  {
+    "timestamp": "2026-06-03T09:10:00Z",
+    "eventName": "ConsoleLogin",
+    "userIdentity": "root",
+    "sourceIPAddress": "203.0.113.55",
+    "awsRegion": "us-east-1",
+    "eventSource": "signin.amazonaws.com",
+    "responseElements": "Success",
+    "mfaUsed": false
+  },
+  {
+    "timestamp": "2026-06-03T09:18:00Z",
+    "eventName": "DeactivateMFADevice",
+    "userIdentity": "alex-admin",
+    "sourceIPAddress": "203.0.113.55",
+    "awsRegion": "us-east-1",
+    "eventSource": "iam.amazonaws.com"
+  },
+  {
+    "timestamp": "2026-06-03T09:25:00Z",
+    "eventName": "AttachUserPolicy",
+    "userIdentity": "alex-admin",
+    "sourceIPAddress": "203.0.113.55",
+    "awsRegion": "us-east-1",
+    "eventSource": "iam.amazonaws.com",
+    "policyName": "AdministratorAccess"
+  },
+  {
+    "timestamp": "2026-06-03T09:30:00Z",
+    "eventName": "CreateAccessKey",
+    "userIdentity": "alex-admin",
+    "sourceIPAddress": "203.0.113.55",
+    "awsRegion": "us-east-1",
+    "eventSource": "iam.amazonaws.com"
+  },
+  {
+    "timestamp": "2026-06-03T09:45:00Z",
+    "eventName": "PutBucketPolicy",
+    "userIdentity": "alex-admin",
+    "sourceIPAddress": "203.0.113.55",
+    "awsRegion": "us-east-1",
+    "eventSource": "s3.amazonaws.com",
+    "bucketName": "customer-files-prod",
+    "publicAccess": true
+  },
+  {
+    "timestamp": "2026-06-03T10:05:00Z",
+    "eventName": "GetObject",
+    "userIdentity": "alex-admin",
+    "sourceIPAddress": "203.0.113.55",
+    "awsRegion": "us-east-1",
+    "eventSource": "s3.amazonaws.com",
+    "bucketName": "customer-files-prod",
+    "bytesDownloaded": 950000000
+  },
+  {
+    "timestamp": "2026-06-03T10:20:00Z",
+    "eventName": "StopLogging",
+    "userIdentity": "alex-admin",
+    "sourceIPAddress": "203.0.113.55",
+    "awsRegion": "us-east-1",
+    "eventSource": "cloudtrail.amazonaws.com"
+  },
+  {
+    "timestamp": "2026-06-03T10:30:00Z",
+    "eventName": "ListBuckets",
+    "userIdentity": "normal-user",
+    "sourceIPAddress": "192.0.2.44",
+    "awsRegion": "us-east-1",
+    "eventSource": "s3.amazonaws.com"
+  }
+]
